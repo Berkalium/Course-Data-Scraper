@@ -74,7 +74,7 @@ public class Main {
     };
 
     public static void main(String[] args) throws IOException, SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/york_university_data","root","");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/maindb","root","");
         conn.createStatement().executeUpdate("TRUNCATE course_information");
         conn.createStatement().executeUpdate("TRUNCATE course_sections");
         conn.createStatement().executeUpdate("TRUNCATE course_sections_sessions");
