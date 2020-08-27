@@ -1,2 +1,2 @@
 # Course-Data-Scraper
-A web scraper that extracts useful data from York University's course website. The JSoup library is used.
+A web scraper that extracts useful data from York University's course website. This project was created for learning purposes.
